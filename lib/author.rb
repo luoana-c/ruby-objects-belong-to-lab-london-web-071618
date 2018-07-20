@@ -5,6 +5,6 @@ class Author
     @posts = [] 
   end 
   def post 
-    @posts << Post.new
+    @posts << Post.new.title
   end 
 end 
