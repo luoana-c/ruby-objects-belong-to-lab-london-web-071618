@@ -6,4 +6,5 @@ class Author
   end 
   def post 
     @posts << Post.new
+  end 
 end 
